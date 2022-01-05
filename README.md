@@ -1,1 +1,1 @@
-# othello_game
+使用python的socket做資料傳輸，畫面的視窗用pygame跟tkinter製作
