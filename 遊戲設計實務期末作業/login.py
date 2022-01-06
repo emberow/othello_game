@@ -2,14 +2,10 @@
 from os import truncate
 from tkinter import *
 from tkinter import messagebox
-#import dashboard
-
 import socket
-
 import errno
 import sys
 import time
-
 import pygame
 from pygame.locals import QUIT
 import math
@@ -110,6 +106,10 @@ class LoginWindow:
         self.uidlabel = Label(self.frame, text="User ID:")
         self.uidlabel.config(font=("Courier", 12, 'bold'))
         self.uidlabel.place(x=50, y=y+250)
+
+        self.uidlabel = Label(self.frame, text="C107151149 林健昌")
+        self.uidlabel.config(font=("Courier", 12, 'bold'))
+        self.uidlabel.place(x=150, y=y+210)
  
         self.userid = Entry(self.frame, font='Courier 12')
         self.userid.place(x=170, y=y+250)
@@ -309,7 +309,7 @@ class create_window:
                     pygame.draw.circle(window_surface,[0,0,0],[140+x*80,140+y*80],30,0)
                 # 白棋
                 if self.board_state[i] == "2":
-                    pygame.draw.circle(window_surface,[0,0,0],[140+x*80,140+y*80],30,1)
+                    pygame.draw.circle(window_surface,[255,255,255],[140+x*80,140+y*80],30,0)
 
             # 顯示現在輪到誰
             if self.whos_turn == "player1":
