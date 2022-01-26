@@ -12,6 +12,6 @@
 兩邊都有人時會自動開始
 
 ![image](https://user-images.githubusercontent.com/80031876/148184380-aec08674-9ec4-4755-b671-05456c3092e7.png)
-結束畫面，結果會寫入資料庫裡面，對戰紀錄可以看。
+結束畫面，結果會寫入資料庫裡面，有對戰紀錄可以看。
 
 ![image](https://user-images.githubusercontent.com/80031876/148184589-95d85154-2915-4d23-b4c9-3bd68c880026.png)
